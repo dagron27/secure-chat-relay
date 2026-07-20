@@ -1,0 +1,8 @@
+# No third-party dependencies.
+# server.py, client.py, and user_manager.py use only the Python standard
+# library: socket, threading, signal, sys, time, logging, queue, ssl, re,
+# hashlib, os, json, secrets.
+#
+# Requires Python 3.8+ (uses f-strings and hashlib.pbkdf2_hmac).
+# This file is kept as a placeholder for tooling that expects a
+# requirements.txt to exist; there is nothing to `pip install`.
